@@ -112,14 +112,71 @@
 // console.log(`totalSalary: `, totalSalary);
 
 // Підрахунок суми всіх четних чисел
-const min = 6;
-const max = 20;
-let total = 0;
+// const min = 6;
+// const max = 20;
+// let total = 0;
 
-for (let i = min; i <= max; i += 1) {
-    console.log(i);
+// for (let i = min; i <= max; i += 1) {
+//     // console.log(i);
 
-    if (i % 2 === 0) {
-        console.log(`четное: `, i);
-    }
-}
+//     if (i % 2 === 0) {
+//         console.log(`четное: `, i);
+
+//         total += i;
+//     }
+// }
+// console.log(`total: `, total);
+
+// Попередній приклад з логікою від зворотнього
+// const min = 2;
+// const max = 10;
+// let total = 0;
+
+// for (let i = min; i <= max; i += 1) {
+//     if (i % 2 !== 0) {
+//         console.log(`Не Четное: `, i);
+//         continue;
+//     }
+
+//     console.log(`Четное: `, i);
+//     total += i;
+// }
+// console.log(`total: `, total);
+
+// Обробка замовлення в магазині
+// let balance = 10000;
+// const payment = 2000;
+
+// console.log(
+//     `Загальна вартість замовлень ${payment} кредитів. Перевіряємо кількість кредитів на рахунку`
+// );
+
+// if (balance >= payment) {
+//     console.log(`ok`);
+
+//     balance -= payment;
+//     console.log(`На рахунку залишилось ${balance} кредитів`);
+// else { console.log(`wow`); }
+// }
+
+// Партнерська програма
+// const totalSpent = 2000;
+// let payment = 500;
+// let discount = 0;
+
+// if (totalSpent >= 100 && totalSpent < 1000) {
+//     console.log(`Бронзовий партнер, знижка 2%`);
+//     discount = 0.02;
+// } else if (totalSpent >= 1000 && totalSpent < 5000) {
+//     console.log(`Срібний партнер, знижка 5%`);
+//     discount = 0.05;
+// } else {
+//     console.log(`Золотий партнер, знижка 10%`);
+//     discount = 0.1;
+// } else { console.log(`Не партнер, знижка 0%`); }
+
+// console.log(`Оформлюємо замовлення на суму ${payment} зі знижкою ${discount * 100} %`);
+
+// totalSpent += payment;
+
+// console.log(`Загальна сума витраченого в магазині: ${totalSpent}`);
