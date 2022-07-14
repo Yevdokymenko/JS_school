@@ -4,9 +4,24 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/main.css">
         <title>Test of JS skills</title>
     </head>
     <body>
+        <h1>Генератор QR-коду</h1>
+        <form>
+            <label>
+                <span>Введіть дані</span>
+                <input type="text" name="text" placeholder="Введіть контент" />
+            </label>
+            <label>
+                <span>Додайте логотип</span>
+                <input type="file" />
+            </label>
+            <button type="submit">Генерувати</button>
+        </form>
+        <canvas id="canvas"></canvas>
+
         <script src="./js/test.js" type="module"></script>
         <script src="./js/test-3.js" type="module"></script>
     </body>
