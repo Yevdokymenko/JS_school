@@ -161,8 +161,8 @@
 // console.log(total);
 
 // Работа з карточками Трелло
-const cards = [`Карточка-1`, `Карточка-2`, `Карточка-3`, `Карточка-4`, `Карточка-5`];
-console.table(cards);
+// const cards = [`Карточка-1`, `Карточка-2`, `Карточка-3`, `Карточка-4`, `Карточка-5`];
+// console.table(cards);
 
 // const cardToRemove = `Карточка-1`;
 // const index = cards.indexOf(cardToRemove);
