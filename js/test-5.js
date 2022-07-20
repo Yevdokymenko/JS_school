@@ -35,18 +35,68 @@ const friends = [
 
 console.table(friends);
 
-const findFriendByName = function (allFriends, name) {
-    for (const friend of friends) {
-        console.log(friend);
-        console.log(friend.name);
+// Пошук друга по імені
+// const findFriendByName = function (allFriends, name) {
+//     for (const friend of friends) {
+//         console.log(friend);
+//         console.log(friend.name);
 
-        if (friend.name === name) {
-            return `ЗНАЙШЛИ!`;
-        }
-    }
+//         if (friend.name === name) {
+//             return `ЗНАЙШЛИ!`;
+//         }
+//     }
 
-    return `НЕ ЗНАЙШЛИ :(`;
-};
+//     return `НЕ ЗНАЙШЛИ :(`;
+// };
 
-console.log(findFriendByName(friends, `Poly`));
-console.log(findFriendByName(friends, `Chelsy`));
+// console.log(findFriendByName(friends, `Poly`));
+// console.log(findFriendByName(friends, `Chelsy`));
+
+// Сума всіх друзів
+// const getAllNames = function (allFriends) {
+//     const names = [];
+
+//     for (const friend of allFriends) {
+//         console.log(friend.name);
+//         names.push(friend.name);
+//     }
+//     return names;
+// };
+// console.log(getAllNames(friends));
+
+// Отримуємо імена друзів, які онлайн
+// const getOnlineFriends = function (allFriends) {
+//     const onlineFriends = [];
+
+//     for (const friend of allFriends) {
+//         console.log(friend);
+//         console.log(friend.online);
+
+//         if (friend.online) {
+//             onlineFriends.push(friend);
+//         }
+//     }
+//     return onlineFriends;
+// };
+
+// console.log(getOnlineFriends(friends));
+
+// const getOfflineFriends = function (allFriends) {};
+
+// Розділяємо друзів на дві групи
+// const getFriendsByOnlineStatus = function (allFriends) {
+//     const friendsByStatus = {
+//         online: [],
+//         offline: [],
+//     };
+
+//     for (const friend of allFriends) {
+//         if (friend.online) {
+//             friendsByStatus.online.push(friend);
+//         } else {
+//             friendsByStatus.offline.push(friend);
+//         }
+//     }
+//     return friendsByStatus;
+// };
+// console.log(getFriendsByOnlineStatus(friends));
