@@ -18,12 +18,12 @@
 // console.log(keys);
 
 // Колекції або масиви обʼєктів
-const friends = [
-    { name: `Mango`, online: false },
-    { name: `Kiwi`, online: true },
-    { name: `Poly`, online: true },
-    { name: `Ajax`, online: false },
-];
+// const friends = [
+//     { name: `Mango`, online: false },
+//     { name: `Kiwi`, online: true },
+//     { name: `Poly`, online: true },
+//     { name: `Ajax`, online: false },
+// ];
 
 // console.table(friends);
 
@@ -33,7 +33,7 @@ const friends = [
 //     friend.newprop = 555;
 // }
 
-console.table(friends);
+// console.table(friends);
 
 // Пошук друга по імені
 // const findFriendByName = function (allFriends, name) {
