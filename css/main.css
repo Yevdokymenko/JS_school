@@ -1,7 +1,7 @@
 body {
     background-color: aquamarine;
     min-height: 100vh;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
 }
@@ -19,9 +19,25 @@ body {
     flex-direction: column;
 }
 
-label {
-    display: flex;
+.button {
+    display: block;
 }
 
-button {
+.site-nav {
+    color: blue;
+    size: 12px;
+}
+
+.site-nav__link {
+    color: brown;
+    size: 20px;
+}
+
+.hero__img {
+    margin: 10px;
+    border-radius: 20%;
+}
+
+.hero__title {
+    color: bisque;
 }
