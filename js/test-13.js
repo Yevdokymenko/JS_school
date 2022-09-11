@@ -16,5 +16,5 @@
 // console.log(heroTitleEl.textContent);
 // heroTitleEl.textContent = 'Я вірю в ЗСУ!';
 
-const actions = document.querySelectorAll('.js-actions button');
-console.log(actions[0].dataset);
+// const actions = document.querySelectorAll('.js-actions button');
+// console.log(actions[0].dataset);
